@@ -6,12 +6,65 @@
     <title>True Nexus</title>
     <style>
         body { 
-            font-family: Arial; 
+            font-family: Arial, sans-serif; 
             text-align: center; 
-            padding: 60px 20px; 
+            padding: 80px 20px; 
             background: #0f0c29; 
             color: white; 
             margin: 0;
+            line-height: 1.6;
         }
-        h1 { color: #c0a4ff; font-size: 3rem; margin-bottom: 10px; }
-        .subtitle { color: #b8a0ff; font
+        h1 { 
+            color: #c0a4ff; 
+            font-size: 3rem; 
+            margin-bottom: 10px; 
+        }
+        .subtitle { 
+            color: #b8a0ff; 
+            font-size: 1.4rem; 
+            margin-bottom: 50px; 
+        }
+        .service {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(192, 164, 255, 0.3);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 25px auto;
+            max-width: 520px;
+        }
+        button {
+            background: linear-gradient(135deg, #c0a4ff, #a855f7);
+            color: black;
+            padding: 16px 36px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>True Nexus</h1>
+    <p class="subtitle">Astrology • Self Discovery • Authentic Living</p>
+
+    <div class="service">
+        <h2>Deep Asteroid Reading</h2>
+        <p>60-minute premium live session</p>
+        <button onclick="window.location.href='deep-reading.html'">Learn More & Book</button>
+    </div>
+
+    <div class="service">
+        <h2>The Intersection Assessment</h2>
+        <p>Masculine & Feminine energies • Patterns • Relational dynamics</p>
+        <button onclick="alert('Assessment coming soon')">Take The Assessment</button>
+    </div>
+
+    <p style="margin-top: 40px;">
+        <button onclick="window.location.href='https://calendly.com/otherworldlynexus-proton'">Book a Session</button>
+    </p>
+</body>
+</html>
